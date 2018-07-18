@@ -3,10 +3,175 @@
   font-size: 14px;
   font-weight: bold;
   display: flex;
-}
-.header li {
-  display: inline-block;
-}
-.header p {
+  border: 1px solid;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 10px;
+  background-color: white;
+  z-index: 2;
+  margin-top: 0px;
+ }
+
+.logo {
+  display: inline-flex;
+  padding-right: 1000px;
+  margin-bottom: 10px;
+ }
+
+ .logo img {
+   margin-left: 20px;
+ }
+
+ .logo p {
   color: MediumAquamarine;
+  display: flex;
+  padding-top: 10px;
+  margin: 10px auto 1px 20px;
+ }
+
+ .header li {
+  display: inline-flex;
+  align-items: flex-end;
+  margin-right: 20px;
+ }
+
+.content {
+  display: flex;
+  position: relative;
+  top: 150px;
+  align-items: stretch;
+  padding: 20px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+
+}
+
+.large {
+  width: 630px;
+  margin-right: 30px;
+}
+
+.medium {
+  flex-direction: column;
+  width: 300px;
+  margin-right: 30px;
+}
+
+.small {
+  flex-direction: column;
+  width: 240px;
+  font-size: 16px;
+  font-weight: bold;
+  align-content: center;
+}
+
+.mother {
+  flex-flow: column;
+}
+
+.stories {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.orca {
+  margin-right: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.breakfast {
+  margin-left: 20px;
+}
+
+.fbi {
+}
+
+.cats {
+}
+
+.footer {
+  background-color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 200px;
+  display: flex;
+  position: relative;
+  top: 150px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  padding-top: 20px;
+}
+.navfooter {
+  display: flex;
+}
+.navfooter li {
+  margin-left: auto;
+}
+.copyright {
+  display: flex;
+}
+
+#tuna {
+  height: 300px;
+  background-image: url('../../resources/images/img-story-main.png');
+  background-color: grey;
+  background-size: cover;
+  background-position: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+#earth {
+  height: 300px;
+  background-image: url('../../resources/images/img-story-2.png');
+  background-color: grey;
+  background-size: cover;
+  background-position: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#memory {
+  height: 300px;
+  background-image: url('../../resources/images/img-story-3.png');
+  background-color: grey;
+  background-size: cover;
+  background-position: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#control {
+  height: 300px;
+  background-image: url('../../resources/images/img-story-1.png');
+  background-color: grey;
+  background-size: cover;
+  background-position: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#brooklyn {
+  flex-direction: column;
+}
+
+#bites {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  align-items: stretch;
 }
